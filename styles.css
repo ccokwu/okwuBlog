@@ -1,6 +1,6 @@
 @font-face {
 	font-family: ‘theBoldFont’;
-	src url(‘http://www.dafont.com/the-bold-font.font);
+	src: url(‘http://www.dafont.com/the-bold-font.font);
 }
 
 html, body {
