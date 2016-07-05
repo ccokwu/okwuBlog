@@ -1,0 +1,416 @@
+@font-face {
+	font-family: ‘theBoldFont’;
+	src url(‘http://www.dafont.com/the-bold-font.font);
+}
+
+html, body {
+  margin-left: 0;
+  margin-right: 0;
+	margin-bottom: 0;
+}
+
+/*.main {
+  background-image: url("images/rooftop.jpg");
+}*/
+
+
+
+.main ul li { /*navigation*/
+  color: black;
+  font-family: theBoldFont;
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  float: right;
+  clear: left;
+  padding-top: 80px;
+  padding-right: 60px;
+  margin-bottom: 50px;
+}
+
+li a { /*navigation link*/
+  color: black;
+  text-decoration: none;
+}
+
+ul li a:hover {
+	color: #fe75d8;
+}
+
+ul li a:active {
+  color: #69e2ed;
+}
+
+.dre {
+  background: url("images/ponytail.jpg");
+  background-size: 1270px, 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: -55px;
+	padding-top: 25px;
+}
+
+
+.dre span {
+	color: #69e2ed;
+	font-style: italic;
+	text-shadow: 3px 5px white;
+}
+
+.dre h1{ /* "Dre dotty"*/
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: theBoldFont;
+  text-align: center;
+  padding-top: 330px;
+  padding-bottom: -100px;
+	margin-bottom: 25px;
+  line-height: 50px;
+	/*text-shadow: 3px 5px white;*/
+}
+
+.dre h2{ /*by*/
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: theBoldFont;
+  text-align: center;
+  padding-top: -100px;
+  padding-bottom: 0px;
+	margin-top: 0;
+  line-height: 50px;
+}
+
+.dre h3 { /* deandre dean*/
+  font-size: 25px;
+  font-family: theBoldFont;
+  text-transform: uppercase;
+  line-height: 0;
+  text-align: center;
+  /*font-family:;*/
+}
+
+.dre .button {
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	border: 3px white solid;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 550px;
+	margin-top: -50px;
+	margin-bottom: 220px;
+}
+
+.dre .button a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+.dre .button a:hover {
+	color: black;
+	background-color: white;
+}
+
+.dre .button:hover {
+	background-color: white;
+	color: black;
+	/*padding-right: 20px;*/
+	/*padding-left: 20px;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.projects {
+  background-color: white;
+	text-align: right;
+	margin-top: 632px;
+	margin-bottom: -90px;
+	padding-bottom: 39px;
+	padding-right: 20px;
+	padding-left: 1px;
+}
+
+.projects h1 {
+	font-family: theBoldFont;
+	font-size: 100px;
+	color: #69e2ed;
+	padding-left: 50px;
+	padding-bottom: 0px;
+	margin-bottom: -180px;
+	text-align: left;
+	/*padding-left: 115px;*/
+	z-index: 99999;
+	line-height: 0;
+}
+
+.projects h1:hover {
+	color: #fe75d8;
+}
+
+.projects span {
+	color: #fe75d8;
+	font-size: 70px;
+}
+
+.projects img {
+	height: 250px;
+	width: 250px;
+	float: right;
+}
+
+.projects span:hover {
+	color: #69e2ed;
+}
+
+.projects, .img a:hover{
+	color: #69e2ed;
+	/*opacity: 0.6;*/
+}
+
+.projects img:hover {
+	opacity: 0.5;
+}
+
+.theStory {
+	background-color: transparent;
+	/*margin-botom: -85px;
+	margin-top: -85px;*/
+}
+.theStory .video  {
+	float: left;
+	clear: right;
+	position: aboslute;
+	top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 70%;
+  z-index: -1000;
+	/*margin-top: -72px;*/
+	margin-bottom: 0px;
+	filter: grayscale(100%);
+	overflow: hidden;
+	background: url("images/royal pink grayscale.mp4");
+	background-size: cover;
+}
+
+.theStory h1 {
+	/*background-color: white;*/
+	font-family: theBoldFont;
+	font-size: 50px;
+	color: black;
+	z-index: 999999;
+	text-align: left;
+	overflow: visible;
+}
+
+.blog {
+	background-color: black;
+	margin-bottom: -220px;
+	padding-top: 800px;
+	padding-bottom: 100px
+}
+
+.blog .posts {
+	margin-left: 220px;
+	margin-right: 220px;
+}
+
+.blog h1 {
+	font-family: theBoldFont;
+	font-size: 80px;
+	color: #fe75d8;
+	text-align: right;
+	z-index: 99999;
+	padding-right: 200px;
+	padding-bottom: 70px;
+}
+
+.blog h1:hover {
+	color: #69e2ed;
+}
+
+.blog .posts {
+	/*background-color: white;*/
+	margin-top: -20px;
+
+}
+.blog .posts h2 {
+color: white;
+font-size: 20px;
+font-family: Tahoma;
+}
+
+.blog .posts h3 {
+	color: white;
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: light;
+}
+
+.blog .button {
+	background-color: white;
+	color: black;
+	font-size: 14px;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	border: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.blog .button a {
+	color: black;
+	text-decoration: none;
+}
+
+.blog .posts p {
+	padding-right: 250px;
+	color: white;
+	text-align: justify;
+	font-family: Helvetica;
+	font-size: 13px;
+}
+
+.blog .posts img {
+	width: 450px;
+	height: 300px;
+}
+
+.blog #second img {
+	float: right;
+	clear: left;
+}
+/*.button {
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	border: 3px white solid;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 550px;
+	margin-top: -50px;
+	margin-bottom: 220px;
+}*/
+
+
+
+.contact {
+  background: url("images/donuts.jpg");
+  background-size: 1270px, 200px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  opacity: 0.7;
+	margin-top: 220px;
+	padding-bottom: 1px;
+	padding-top: 200px;
+}
+.contact h1 {
+	font-family: theBoldFont;
+	font-size: 40px;
+	color: white;
+	letter-spacing: 5px;
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 250px;
+}
+
+.contact a {
+	color: white;
+	text-decoration: none;
+}
+
+.contact a:hover {
+	color: #fe75d8;
+}
+
+.contact a:active {
+	color: #69e2ed;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+}
+
+.footer ul {
+	text-decoration: none;
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.footer ul a:active{
+	color: #69e2ed;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer p {
+	font-family: sans-serif;
+	font-size: 14px;
+	padding-left: 40px;
+	margin-bottom: -15px;
+}
+
+.footer img {
+	width: 20px;
+	height: 20px;
+}
+
+.footer p a:active {
+	color: #69e2ed;
+}
+
+.footer a:hover {
+	color: #fe75d8;
+}
+
+.footer img:hover {
+	color: #fe75d8;
+}
+
+.footer img:active {
+	color: #69e2ed;
+}
+.footer .links {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.footer h3 {
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 12px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	margin-top: -40px;
+}
+
+/*.footer .links { KEEP IN MIND FOR FIXED LINKS
+	text-align: center;
+	height: 25px;
+	width: 25px;
+}*/
