@@ -40,6 +40,7 @@ ul li a:active {
 
 .grid {
   width: 100%;
+  margin-bottom: 100px;
 }
 .grid:after {
   content: "";
@@ -158,6 +159,7 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
   text-align: center;
   width: 60%;
   height: 330px;
+  margin-bottom: 50px;
 }
 
 .footer {
