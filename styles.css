@@ -48,6 +48,7 @@ ul li a:active {
   background-repeat: no-repeat;
   margin-top: -55px;
 	padding-top: 25px;
+	text-shadow: 3px 4px white;
 }
 
 
@@ -191,12 +192,13 @@ ul li a:active {
   width: 100%;
   height: 70%;
   z-index: -1000;
-	/*margin-top: -72px;*/
+	margin-top: 36px;
 	margin-bottom: 0px;
 	filter: grayscale(100%);
 	overflow: hidden;
 	background: url("images/royal pink grayscale.mp4");
 	background-size: cover;
+	opacity: 0.6;
 }
 
 .theStory h1 {
@@ -208,7 +210,7 @@ ul li a:active {
 	text-align: left;
 	overflow: visible;
 	position: absolute;
-	padding-top: 30px;
+	padding-top: 90px;
 	padding-left: 100px;
 	text-shadow: 5px 3px grey;
 }
@@ -223,106 +225,110 @@ ul li a:active {
 	width: 35%;
 	padding: 50px;
 	margin-left: 600px;
-	margin-top: 200px;
+	margin-top: 280px;
 	text-align: justify;
 }
+.theStory #buttonStory {
+	background-color: white;
+	color: white;
+	font-size: 14px;
+	margin-top: 30px;
+	margin-left: 600px;
+	border: 5px solid black;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: none;
+	position: absolute;
+}
+
+.theStory #buttonStory a {
+	color: black;
+	text-decoration: none;
+}
+
+.theStory #buttonStory a:hover {
+	color: #fe75d8;
+}
+
+.theStory #buttonStory a:active {
+	color: #69e2ed;
+}
+
+
+
 
 .blog {
 	background-color: black;
 	margin-bottom: -220px;
-	padding-top: 800px;
+	padding-top: 720px;
 	padding-bottom: 100px
-}
-
-.blog .posts {
-	margin-left: 220px;
-	margin-right: 220px;
 }
 
 .blog h1 {
 	font-family: theBoldFont;
-	font-size: 80px;
+	font-size: 120px;
 	color: #fe75d8;
 	text-align: right;
 	z-index: 99999;
 	padding-right: 200px;
-	padding-bottom: 70px;
+	/*padding-bottom: 70px;*/
+	position: relative;
+	overflow: hidden;
+	line-height: 65px;
 }
 
-.blog h1:hover {
+.blog h1 span {
+	font-size: 50px;
 	color: #69e2ed;
 }
 
-.blog .posts {
-	/*background-color: white;*/
-	margin-top: -20px;
+/*@keyframes .blog h1 { for animation
+	0%
+}*/
 
-}
-.blog .posts h2 {
-color: white;
-font-size: 20px;
-font-family: Tahoma;
-}
 
-.blog .posts h3 {
-	color: white;
-	font-size: 16px;
-	font-family: Arial;
-	font-weight: light;
-}
 
-.blog .button {
+.blog #button {
 	background-color: white;
-	color: black;
+	color: white;
 	font-size: 14px;
 	margin-top: 30px;
-	margin-bottom: 60px;
-	border: none;
-	padding-right: 20px;
-	padding-left: 20px;
+	margin-left: 600px;
+	border: 5px solid black;
+	padding-right: 40px;
+	padding-left: 40px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
-.blog .button a {
+.blog #button a {
 	color: black;
 	text-decoration: none;
 }
 
-.blog .posts p {
-	padding-right: 250px;
-	color: white;
-	text-align: justify;
-	font-family: Helvetica;
-	font-size: 13px;
+.blog #button a:hover {
+	color: #fe75d8;
+}
+
+.blog #button a:active {
+	color: #69e2ed;
 }
 
 .blog .posts img {
-	width: 450px;
-	height: 300px;
+	text-align: center;
+	width: 75%;
+	height: 35%;
+	padding-left: 170px;
+	margin-top: -120px;
 }
 
-.blog #second img {
-	float: right;
-	clear: left;
-}
-/*.button {
-	background-color: transparent;
-	color: white;
-	text-transform: uppercase;
-	border: 3px white solid;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 15px;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-left: 550px;
-	margin-top: -50px;
-	margin-bottom: 220px;
-}*/
 
 
 

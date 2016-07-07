@@ -1,0 +1,171 @@
+@font-face {
+	font-family: ‘theBoldFont’;
+	src: url(‘http://www.dafont.com/the-bold-font.font);
+}
+
+html, body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.main ul li { /*navigation*/
+  color: black;
+  font-family: theBoldFont;
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  float: right;
+  clear: left;
+  padding-top: 80px;
+  padding-right: 60px;
+  margin-bottom: 50px;
+  margin-top: -80px;
+  position: relative;
+}
+
+li a { /*navigation link*/
+  color: black;
+  text-decoration: none;
+}
+
+ul li a:hover {
+	color: #fe75d8;
+}
+
+ul li a:active {
+  color: #69e2ed;
+}
+
+.grid {
+  width: 100%;
+}
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-1-3 {
+  width: 33%;
+  float: left;
+  padding-left: 70px;
+  position: relative;
+}
+
+.col-2-3 {
+  width: 33%;
+  display: inline-block;
+  padding-left: 70px;
+  position: relative;
+}
+
+.col-3-3 {
+  width: 33%;
+  float: right;
+  padding-left: 90px;
+  position: relative;
+}
+
+.grid h1 {
+  font-size: 20px;
+  font-family: theBoldFont;
+}
+
+.grid #one {
+  font-size: Helvetica;
+  font-size: 14px;
+  color: black;
+}
+
+.grid #three {
+  float: right;
+}
+
+
+
+.contactPage h1 {
+  color: black;
+  font-family: theBoldFont;
+  font-size: 60px;
+  text-align: right;
+  padding-right: 825px;
+  padding-top: 90px;
+  letter-spacing: 10px;
+}
+
+.contactPage img {
+  position: relative;
+  padding-left: 230px;
+  text-align: center;
+  width: 60%;
+  height: 330px;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+}
+
+.footer ul {
+	text-decoration: none;
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.footer ul a:active{
+	color: #69e2ed;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer p {
+	font-family: sans-serif;
+	font-size: 14px;
+	padding-left: 40px;
+	margin-bottom: -15px;
+}
+
+.footer img {
+	width: 20px;
+	height: 20px;
+}
+
+.footer p a:active {
+	color: #69e2ed;
+}
+
+.footer a:hover {
+	color: #fe75d8;
+}
+
+.footer img:hover {
+	color: #fe75d8;
+}
+
+.footer img:active {
+	color: #69e2ed;
+}
+.footer .links {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.footer h3 {
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 12px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	margin-top: -40px;
+}
