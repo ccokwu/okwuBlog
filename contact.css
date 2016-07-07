@@ -74,19 +74,19 @@ ul li a:active {
   font-family: theBoldFont;
 }
 
-.grid #one p {
+.grid #one p { /* questions? */
   font-family: Helvetica;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
 }
 
-.grid #two p {
+.grid #two p { /*our location*/
   font-family: Helvetica;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
 }
 
-.grid #three {
+.grid #three { /*maps*/
   float: right;
 }
 
