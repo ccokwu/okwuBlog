@@ -73,8 +73,14 @@ ul li a:active {
   font-family: theBoldFont;
 }
 
-.grid #one {
-  font-size: Helvetica;
+.grid #one p {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: black;
+}
+
+.grid #two p {
+  font-family: Helvetica;
   font-size: 14px;
   color: black;
 }
@@ -83,7 +89,45 @@ ul li a:active {
   float: right;
 }
 
+.form {
+	color: grey;
+	font-size: 12px;
+	/*margin-top: 20px;*/
+	line-height: 30px;
+}
 
+input[type=text] {
+  color: grey;
+  border: 1px solid black;
+  height: 25px;
+  width: 150px;
+  font-size: 14px;
+}
+
+input[type=textArea]{
+  height: 100px;
+  width: 150px;
+  color: grey;
+  border: 1px solid black;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: -40px;
+}
+
+input[type=button], input[type=submit] {
+	width: 153.5px;
+
+	/*height: 50px;*/
+	border-radius: 0px;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+	color: #fe75d8;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+	color: #69e2ed;
+}
 
 .contactPage h1 {
   color: black;
