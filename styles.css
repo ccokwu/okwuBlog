@@ -243,6 +243,7 @@ ul li a:active {
 	text-transform: uppercase;
 	border: none;
 	position: absolute;
+	z-index: 9999;
 }
 
 .theStory #buttonStory a {

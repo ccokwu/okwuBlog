@@ -147,10 +147,16 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
   color: black;
   font-family: theBoldFont;
   font-size: 60px;
-  text-align: right;
+  /*text-align: right;*/
   padding-right: 825px;
   padding-top: 90px;
   letter-spacing: 10px;
+  margin-left: 120px;
+}
+
+.contactPage h1 span {
+  margin-left: 189px;
+  font-size: 80px;
 }
 
 .contactPage img {

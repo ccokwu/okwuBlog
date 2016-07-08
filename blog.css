@@ -6,8 +6,7 @@
 html, body {
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 0;
-  margin-top: 0;
+	margin-bottom: 0;
 }
 
 .main ul li { /*navigation*/
@@ -18,12 +17,9 @@ html, body {
   list-style-type: none;
   float: right;
   clear: left;
-  padding-top: 105px;
   padding-right: 60px;
   margin-bottom: 50px;
-  margin-top: -65px;
-  position: relative;
-  z-index: 99999px;
+  margin-top: -14px;
 }
 
 li a { /*navigation link*/
@@ -39,52 +35,86 @@ ul li a:active {
   color: #69e2ed;
 }
 
-.theStory {
-  background: url("images/dreday.jpg");
-  background-size: 100%;
+.blog {
+  background: url("images/detroit.jpg");
+  background-size: 100%, 0;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  position: relative;
-  margin-top: -16px;
-  margin-bottom: -50px;
-  padding-top: 180px;
-  padding-bottom: 180px;
-  z-index: -100;
+  opacity: 0.3%;
+  /*z-index: -100;*/
 }
 
-.theStory h1 {
+/*.blog img {
+  width: 100%;
+  opacity: 0.3;
+}*/
+
+.blog h1 {
+  font-family: theBoldFont;
   font-size: 80px;
+  letter-spacing: 10px;
+  color: black;
+  margin-left: 120px;
+  padding-top: 100px;
+}
+
+.blog h1 span {
+  font-size: 60px;
   font-family: theBoldFont;
   color: black;
-  /*text-align: right;*/
-  padding-left: 200px;
-  margin-top: -20px;
-  letter-spacing: 10px;
+  letter-spacing: 0;
 }
 
-.theStory h1 span {
-  font-size: 50px;
-  letter-spacing: 0px;
+.blogPosts {
+  /*background: none;*/
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
-.theStory p {
-  color: black;
-  font-size: 14px;
+.blogPosts h1 {
+  font-size: 20px;
+  font-family: theBoldFont;
+  padding-top: 60px;
+}
+
+.blogPosts p {
   font-family: Helvetica;
+  font-size: 13px;
   text-align: justify;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-left: 70px;
-  margin-right: 680px;
-  margin-top: -80px;
+  /*float: right;
+  clear: left;*/
 }
 
+.blogPosts img {
+  width: 454px;
+  height: 303px;
+  margin-top: -60px;
+}
 
+.blogPosts button {
+  color: white;
+  font-family: Helvetica;
+  background-color: black;
+  text-decoration: none;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  clear: left;
+  margin-right: 350px;
+}
 
+.blogPosts button a:hover {
+  text-decoration: none;
+  color: #fe75d8;
 
+}
+
+.blogPosts button a:active {
+  color: #69e2ed;
+}
 
 
 
@@ -96,7 +126,7 @@ ul li a:active {
 .footer {
 	background-color: black;
 	color: white;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-top: 30px;
 	padding-bottom: 10px;
