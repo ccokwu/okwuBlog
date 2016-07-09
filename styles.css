@@ -230,7 +230,7 @@ ul li a:active {
 }
 .theStory #buttonStory {
 	background-color: white;
-	color: white;
+	color: black;
 	font-size: 14px;
 	margin-top: 30px;
 	margin-left: 600px;
@@ -243,7 +243,7 @@ ul li a:active {
 	text-transform: uppercase;
 	border: none;
 	position: absolute;
-	z-index: 9999;
+	z-index: 99999;
 }
 
 .theStory #buttonStory a {
