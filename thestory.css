@@ -3,6 +3,11 @@
 	src: url(‘http://www.dafont.com/the-bold-font.font);
 }
 
+@font-face {
+	font-family: 'adam';
+	src: url('http://www.dafont.com/adam.font');
+}
+
 html, body {
   margin-left: 0;
   margin-right: 0;

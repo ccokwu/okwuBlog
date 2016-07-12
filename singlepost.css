@@ -1,0 +1,219 @@
+@font-face {
+	font-family: ‘theBoldFont’;
+	src: url(‘http://www.dafont.com/the-bold-font.font);
+}
+
+@font-face {
+	font-family: 'adam';
+	src: url('http://www.dafont.com/adam.font');
+}
+
+
+html, body {
+  margin-left: 0;
+  margin-right: 0;
+	margin-bottom: 0;
+}
+
+.main ul li { /*navigation*/
+  color: black;
+  font-family: theBoldFont;
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  float: right;
+  clear: left;
+  padding-right: 60px;
+  margin-bottom: 50px;
+  margin-top: 23px;
+}
+
+li a { /*navigation link*/
+  color: black;
+  text-decoration: none;
+}
+
+ul li a:hover {
+	color: #fe75d8;
+}
+
+ul li a:active {
+  color: #69e2ed;
+}
+
+.blogPost {
+  margin-top: 0;
+  background: url("images/pine1.jpg");
+  background-size: 75%;
+  /*height: 50%;*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.3%;
+	/*margin-bottom: -54px;*/
+	padding-bottom: 150px;
+}
+
+
+.blogPost h1 {
+  font-size: 20px;
+  font-family: theBoldFont;
+  padding-top: 150px;
+  margin-bottom: -50px;
+  margin-left: 100px;
+}
+
+
+
+/*.blogPost h2 {
+  font-size: 20px;
+  font-family: theBoldFont;
+  padding-top: 100px;
+  margin-left: 180px;
+}*/
+
+.blogPost p {
+  font-family: adam;
+  font-size: 17px;
+  /*text-align: justify;*/
+  margin-left: 60px;
+  margin-right: 440px;
+	/*margin-top: -320px; /* take out if no longer float this element */*/
+	padding-left: 380px;
+	letter-spacing: 1px;
+  /*float: right;
+  clear: left;*/
+}
+
+.blogPost img {
+  width: 640px;
+  height: 400px;
+  margin-top: -40px;
+  margin-left: 60px;
+}
+
+
+.sideColumn {
+  float: right;
+  clear: left;
+  margin-top: -925px;
+  margin-right: -600px;
+}
+
+.sideColumn h1 {
+  font-size: 20px;
+  font-family: theBoldFont;
+
+}
+
+.sideColumn h4 {
+  /*float: right;
+  clear: left;*/
+}
+
+.sideColumn p {
+  float: right;
+  clear: left;
+}
+
+.sideColumn img {
+  width: 10%;
+  height: 5%;
+}
+
+
+.followUS {
+
+  /*float: right;
+  clear: left;
+  margin-top: -140px;
+  margin-leftt: 900px;
+  padding-bottom: 20px;*/
+}
+
+hr {
+  margin-bottom: 30px;
+}
+
+.followUs h1 {
+  font-size: 20px;
+  font-family: ;
+  padding-top: 50px;
+}
+
+.followUs img {
+  width: 30px;
+	height: 30px;
+}
+
+
+
+
+
+
+
+.footer {
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+}
+
+.footer ul {
+	text-decoration: none;
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.footer ul a:active{
+	color: #69e2ed;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer p {
+	font-family: sans-serif;
+	font-size: 14px;
+	padding-left: 40px;
+	margin-bottom: -15px;
+}
+
+.footer img {
+	width: 20px;
+	height: 20px;
+}
+
+.footer p a:active {
+	color: #69e2ed;
+}
+
+.footer a:hover {
+	color: #fe75d8;
+}
+
+.footer img:hover {
+	color: #fe75d8;
+}
+
+.footer img:active {
+	color: #69e2ed;
+}
+.footer .links {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.footer h3 {
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 12px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	margin-top: -40px;
+}
