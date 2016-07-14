@@ -18,7 +18,13 @@ html, body {
   background-image: url("images/rooftop.jpg");
 }*/
 
-
+.main ul {
+	position: absolute;
+	padding-top: 100px;
+  padding-right: 60px;
+	margin-left: 680px;
+	z-index: 9999;
+}
 
 .main ul li { /*navigation*/
   color: black;
@@ -28,9 +34,10 @@ html, body {
   list-style-type: none;
   float: right;
   clear: left;
-  padding-top: 80px;
+  /*padding-top: 80px;*/
   padding-right: 60px;
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
+
 }
 
 li a { /*navigation link*/
@@ -44,6 +51,15 @@ ul li a:hover {
 
 ul li a:active {
   color: #69e2ed;
+}
+
+.toggle {
+	padding-right: 150px;
+	position: absolute;
+	margin-left: 850px;
+	margin-top: 100px;
+	height: 100px;
+	width: 250px;
 }
 
 .dre {
@@ -198,12 +214,12 @@ ul li a:active {
   height: 70%;
   z-index: -1000;
 	margin-top: 36px;
-	margin-bottom: 0px;
+	margin-bottom: -18px;
 	filter: grayscale(100%);
 	overflow: hidden;
 	background: url("images/royal pink grayscale.mp4");
 	background-size: cover;
-	opacity: 0.6;
+	opacity: 0.9;
 }
 
 .theStory h1 {
@@ -237,8 +253,9 @@ ul li a:active {
 	background-color: white;
 	color: black;
 	font-size: 14px;
-	margin-top: 30px;
-	margin-left: 600px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	margin-left: 800px;
 	border: 5px solid black;
 	padding-right: 40px;
 	padding-left: 40px;
@@ -247,8 +264,8 @@ ul li a:active {
 	text-decoration: none;
 	text-transform: uppercase;
 	border: none;
-	position: absolute;
-	z-index: 99999;
+	position: relative;
+	/*z-index: 99999;*/
 }
 
 .theStory #buttonStory a {
@@ -269,6 +286,7 @@ ul li a:active {
 
 .blog {
 	background-color: black;
+	margin-top: -700px;
 	margin-bottom: -220px;
 	padding-top: 720px;
 	padding-bottom: 100px
@@ -321,11 +339,11 @@ ul li a:active {
 
 .blog #button a:hover {
 	color: #fe75d8;
-	border: #fe75d8 solid 3px;
+	/*border: #fe75d8 solid 3px;
 	padding-right: 40px;
 	padding-left: 40px;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 10px;*/
 }
 
 .blog #button a:active {

@@ -14,6 +14,13 @@ html, body {
 	margin-bottom: 0;
 }
 
+.main ul {
+	position: absolute;
+	padding-top: 15px;
+  padding-right: 60px;
+	margin-left: 680px;
+}
+
 .main ul li { /*navigation*/
   color: black;
   font-family: theBoldFont;
@@ -40,6 +47,15 @@ ul li a:active {
   color: #69e2ed;
 }
 
+.toggle {
+	padding-right: 60px;
+	position: absolute;
+	margin-left: 850px;
+	margin-top: 100px;
+	height: 100px;
+	width: 250px;
+}
+
 .blog {
   background: url("images/detroitdance.jpg");
   background-size: 100%;
@@ -47,8 +63,8 @@ ul li a:active {
   background-attachment: fixed;
   background-repeat: no-repeat;
   opacity: 0.3%;
-	margin-bottom: -54px;
-	padding-bottom: 50px;
+	margin-bottom: 0;
+	padding-bottom: 100px;
 }
 
 /*.blog img {
@@ -62,6 +78,7 @@ ul li a:active {
   letter-spacing: 10px;
   color: black;
   margin-left: 120px;
+	/*margin-bottom: -240px;*/
   padding-top: 100px;
 }
 
@@ -73,10 +90,23 @@ ul li a:active {
 }
 
 .blog h2 {
+	color: black;
   font-size: 20px;
   font-family: theBoldFont;
+  padding-top: 50px;
+  margin-left: 180px;
+	margin-bottom: -300px;
+}
+
+.blog h3 {
+	color: black;
+  font-size: 15px;
+  font-family: adam;
   padding-top: 100px;
   margin-left: 180px;
+	z-index: 999999;
+	position: relative;
+	margin-bottom: 300px;
 }
 
 .blog p {
@@ -84,9 +114,9 @@ ul li a:active {
   font-size: 17px;
   /*text-align: justify;*/
   margin-left: 150px;
-  margin-right: 100px;
-	margin-top: -320px; /* take out if no longer float this element */
-	padding-left: 380px;
+  margin-right: 200px;
+	margin-top: -308px; /* take out if no longer float this element */
+	padding-left: 500px;
 	letter-spacing: 1px;
   float: right;
   clear: left;
@@ -95,8 +125,9 @@ ul li a:active {
 .blog img {
   width: 454px;
   height: 303px;
-  margin-top: -135px;
-  margin-left: 60px;
+  margin-top: -290px;
+  margin-left: 180px;
+	z-index: -777;
 }
 
 .blog button {
@@ -113,7 +144,7 @@ ul li a:active {
   float: right;
   clear: left;
   margin-right: 460px;
-	margin-top: -70px;
+	margin-top: -50px;
 }
 
 .blog a {

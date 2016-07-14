@@ -15,6 +15,13 @@ html, body {
   margin-top: 0;
 }
 
+.main ul {
+	position: absolute;
+	padding-top: 15px;
+  padding-right: 60px;
+	margin-left: 680px;
+}
+
 .main ul li { /*navigation*/
   color: black;
   font-family: theBoldFont;
@@ -43,6 +50,15 @@ ul li a:active {
   color: #69e2ed;
 }
 
+.toggle {
+	padding-right: 60px;
+	position: absolute;
+	margin-left: 850px;
+	margin-top: 100px;
+	height: 100px;
+	width: 250px;
+}
+
 .grid {
   width: 100%;
   margin-bottom: 100px;
@@ -54,37 +70,39 @@ ul li a:active {
 }
 
 .col-1-3 {
-  width: 33%;
+  width: 50%;
   float: left;
   padding-left: 130px;
   position: relative;
+	margin-top: -100px;
 }
 
 .col-2-3 {
-  width: 33%;
+  width: 50%;
   display: inline-block;
   padding-left: 70px;
   position: relative;
+	float: right;
+	clear: left;
+	margin-right: -100px;
 }
 
-.col-3-3 {
+/*.col-3-3 {
   width: 33%;
   float: right;
-  /*padding-left: 90px;*/
-	/*margin-right: 40px;*/
   position: relative;
-}
+}*/
 
 .grid h1 {
   font-size: 20px;
   font-family: theBoldFont;
 }
 
-.grid #one p { /* questions? */
-  font-family: Helvetica;
-  font-size: 16px;
+/*.grid #one p { /* questions?
+  font-family: adam;
+  font-size: 15px;
   color: black;
-}
+}*/
 
 .grid #two p { /*our location*/
   font-family: Helvetica;
@@ -92,8 +110,15 @@ ul li a:active {
   color: black;
 }
 
-.grid #three { /*maps*/
+/*.grid #three { maps
   float: right;
+}*/
+
+.grid #map {
+	width: 350px;
+	height: 350px;
+	margin-left: 600px;
+	margin-top: -200px;
 }
 
 .form {
@@ -107,7 +132,7 @@ input[type=text] {
   color: grey;
   border: 1px solid black;
   height: 25px;
-  width: 150px;
+  width: 350px;
   font-size: 14px;
 }
 
@@ -117,19 +142,20 @@ input[type=textArea]{
   color: grey;
   border: 1px solid black;
   font-size: 14px;
-
-  margin-top: -40px;
+	text-align: center;
+	width: 350px;
+  margin-top: 0px;
 	margin-bottom: 5px;
-	margin-left: 5px;
+	margin-left: 0;
   position: relative;
 }
 
 input[type=button], input[type=submit] {
-	width: 153.5px;
-
-	/*height: 50px;*/
+	/*width: 153.5px;*/ma
 	border-radius: 0px;
   position: relative;
+	width: 355px;
+	margin-left: 0;
 }
 
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
@@ -151,12 +177,11 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
   position: relative;
 }
 
+
 .contactPage h1 {
   color: black;
   font-family: theBoldFont;
   font-size: 60px;
-  /*text-align: right;*/
-  padding-right: 825px;
   padding-top: 90px;
   letter-spacing: 10px;
   margin-left: 120px;
@@ -179,7 +204,7 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
 .faq {
 padding-left: 130px;
 padding-bottom: 80px;
-padding-top: 50px;
+/*padding-top: 50px;*/
 }
 
 .faq h1 {

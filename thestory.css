@@ -15,6 +15,13 @@ html, body {
   margin-top: 0;
 }
 
+.main ul {
+	position: absolute;
+	padding-top: 30px;
+  padding-right: 60px;
+	margin-left: 680px;
+}
+
 .main ul li { /*navigation*/
   color: black;
   font-family: theBoldFont;
@@ -42,6 +49,15 @@ ul li a:hover {
 
 ul li a:active {
   color: #69e2ed;
+}
+
+.toggle {
+	padding-right: 60px;
+	position: absolute;
+	margin-left: 850px;
+	margin-top: 100px;
+	height: 100px;
+	width: 250px;
 }
 
 .theStory {
