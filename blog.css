@@ -19,6 +19,7 @@ html, body {
 	padding-top: 15px;
   padding-right: 60px;
 	margin-left: 680px;
+	z-index: 9999;
 }
 
 .main ul li { /*navigation*/
@@ -87,6 +88,21 @@ ul li a:active {
   font-family: theBoldFont;
   color: black;
   letter-spacing: 0;
+}
+
+.blog h1 { /* css animation */
+  animation: flyin 1.2s ease forwards;
+  opacity: 0;
+  transform: scale(2);
+  filter: blur(4px);
+}
+
+@keyframes flyin {
+   to {
+     filter: blur(0);
+     transform: scale(1);
+     opacity: 1;
+   }
 }
 
 .blog h2 {

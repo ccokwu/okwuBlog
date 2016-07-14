@@ -20,6 +20,7 @@ html, body {
 	padding-top: 15px;
   padding-right: 60px;
 	margin-left: 680px;
+	z-index: 9999;
 }
 
 .main ul li { /*navigation*/
@@ -119,6 +120,7 @@ ul li a:active {
 	height: 350px;
 	margin-left: 600px;
 	margin-top: -200px;
+	z-index: 9999;
 }
 
 .form {
@@ -192,6 +194,21 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
   font-size: 80px;
 }
 
+.contactPage h1 { /* css animation */
+  animation: flyin 1.2s ease forwards;
+  opacity: 0;
+  transform: scale(2);
+  filter: blur(4px);
+}
+
+@keyframes flyin {
+   to {
+     filter: blur(0);
+     transform: scale(1);
+     opacity: 1;
+   }
+}
+
 .contactPage img {
   position: relative;
   padding-left: 230px;
@@ -204,14 +221,28 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
 .faq {
 padding-left: 130px;
 padding-bottom: 80px;
-/*padding-top: 50px;*/
+z-index: 999999;
 }
 
 .faq h1 {
 	color: black;
 	font-family: theBoldFont;
 	font-size: 45px;
+}
 
+.faq h1 { /* css animation */
+  animation: flyin 1.2s ease forwards;
+  opacity: 0;
+  transform: scale(2);
+  filter: blur(4px);
+}
+
+@keyframes flyin {
+   to {
+     filter: blur(0);
+     transform: scale(1);
+     opacity: 1;
+   }
 }
 
 .faq h2 {

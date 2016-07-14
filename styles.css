@@ -236,6 +236,21 @@ ul li a:active {
 	text-shadow: 5px 3px grey;
 }
 
+.theStory h1 { /* css animation */
+  animation: flyin 1.2s ease forwards;
+  opacity: 0;
+  transform: scale(2);
+  filter: blur(4px);
+}
+
+@keyframes flyin {
+   to {
+     filter: blur(0);
+     transform: scale(1);
+     opacity: 1;
+   }
+}
+
 .theStory p {
 	background-color: rgba(255, 255, 255, 0.5);
 	/*background-color: rgba(0, 0, 0, 0.7);*/
@@ -310,9 +325,20 @@ ul li a:active {
 	color: #69e2ed;
 }
 
-/*@keyframes .blog h1 { for animation
-	0%
-}*/
+.blog h1 { /*css animation*/
+  animation: flyin 1.2s ease forwards;
+  opacity: 0;
+  transform: scale(2);
+  filter: blur(4px);
+}
+
+@keyframes flyin {
+   to {
+     filter: blur(0);
+     transform: scale(1);
+     opacity: 1;
+   }
+}
 
 
 
